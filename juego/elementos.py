@@ -171,8 +171,8 @@ class Enemigo():
             pass
         elif event.type==timer_segundos:
 
-            self.rect.x -= 80 #Velocidad del enemigo 2
-            self.pos_imagen[0]-=80
+            self.rect.x -= 2 #Velocidad del enemigo 2
+            self.pos_imagen[0]-=2
             if len(self.usado)>12:
                 self.rect.x -= 1 #Velocidad del enemigo despues de pasar a la mitad 3
                 self.pos_imagen[0]-=1
