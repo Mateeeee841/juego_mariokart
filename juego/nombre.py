@@ -6,11 +6,12 @@ class Nombre():
         self.max=11
         
     def cargarNombre(self,nombre_texto,nombre_titulo,indicacion):
-        screen.fill((negro))
+        screen.fill((azul))
         screen.blit(nombre_titulo,(150,20))
+        pygame.draw.rect(screen, (blanco), rectangulo_nombre)
         screen.blit(nombre_texto,(rectangulo_nombre.x+20,rectangulo_nombre.y+10))
-        pygame.draw.rect(screen, (blanco), rectangulo_nombre, 4)
-        screen.blit(indicacion,(rectangulo_nombre.x,350))
+        pygame.draw.rect(screen, (blanco), (rectangulo_nombre.x+75,340,250,40),4)
+        screen.blit(indicacion,(rectangulo_nombre.x+85,350))
         pygame.display.flip() 
     
     def obtenerNombre(self,juego,tabla):

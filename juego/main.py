@@ -38,7 +38,7 @@ while juego.running:
     #INGREAR NOMBRE
     while juego.stage==1:
         nombre.obtenerNombre(juego,tabla)
-        nombre_texto=fuente.render(nombre.input_text, True, (blanco))
+        nombre_texto=fuente.render(nombre.input_text, True, (negro))
         nombre_titulo=fuente.render("Ingrese su nombre:", True, (blanco))
         indicacion=fuente2.render("Espacio para continuar", True, (blanco))
         nombre.cargarNombre(nombre_texto,nombre_titulo,indicacion)

@@ -52,7 +52,7 @@ cambio = pygame.transform.scale(cambio, (50, 90))
 
 
 rectangulo_gano = pygame.Rect(230, 520, 450, 80)
-rectangulo_nombre= pygame.Rect(45, 200, 400, 80)
+rectangulo_nombre= pygame.Rect(175, 200, 400, 80)
 
 fuente = pygame.font.Font(None, 70)
 fuente2  = pygame.font.Font(None, 30)

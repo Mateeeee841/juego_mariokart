@@ -153,7 +153,7 @@ class Carrera():
         if self.x_meta<-2000:
             juego.stage= 5
             enemigo.usado=[]
-        if self.segundos< 74:
+        if self.segundos< 0:
             juego.stage = 6
             perdio=True
             enemigo.usado=[]
