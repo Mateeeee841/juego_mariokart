@@ -244,8 +244,6 @@ class Banana():
                     self.rect.x=850
                     self.lanza_banana=False
             
-    def terminoBanana(self):
-        return False
     
     def dibujarAdvertencia(self):
         self.advertencia.set_alpha(250) 

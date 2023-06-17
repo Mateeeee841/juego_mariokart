@@ -70,6 +70,7 @@ class Carrera():
                 if not banana.lanza_banana:        
                     if round(self.segundos) == NumeroRandomEntre(0, 55) :
                         banana.lanza_banana=True
+            if int(len(enemigo.usado)) < 22 and banana.rect.x>-2 :
                 if banana.lanza_banana:
                     screen.blit(banana.sprite, (banana.rect.x, banana.rect.y)) 
     
